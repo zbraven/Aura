@@ -1,12 +1,9 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "AbilitySystem/AuraAttributeSet.h"
 #include "Net/UnrealNetwork.h"
 
 UAuraAttributeSet::UAuraAttributeSet()
 {
-	InitHealth(100.f);
+	InitHealth(50.f);
 	InitMaxHealth(100.f);
 	InitMana(50.f);
 	InitMaxMana(50.f);
@@ -39,4 +36,3 @@ void UAuraAttributeSet::OnRep_MaxMana(const FGameplayAttributeData& OldMaxMana) 
 {
 	GAMEPLAYATTRIBUTE_REPNOTIFY(UAuraAttributeSet, MaxMana, OldMaxMana);
 }
-
