@@ -1,6 +1,3 @@
-// Copyright Druid Mechanics
-
-
 #include "AbilitySystem/AuraAttributeSet.h"
 #include "Net/UnrealNetwork.h"
 

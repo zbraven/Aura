@@ -1,6 +1,3 @@
-// Copyright Druid Mechanics
-
-
 #include "Actor/AuraEffectActor.h"
 
 #include "AbilitySystemBlueprintLibrary.h"
